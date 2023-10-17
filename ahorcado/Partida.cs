@@ -39,7 +39,7 @@ namespace ahorcado
 
         private void buttonProbar_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text.Length == 1)
+            if (textBox1.Text.Length == 1)
             {
                 char letra = char.Parse(textBox1.Text); //Lo convierto en char
 
@@ -56,7 +56,8 @@ namespace ahorcado
                 {
                     labelInfo.Text = "Ya habias dicho esta letra";
                 }
-            } else
+            }
+            else
             {
                 labelInfo.Text = "Sólo puedes introducir 1 letra";
             }
@@ -74,6 +75,7 @@ namespace ahorcado
                     palabraAdivinada = palabraAdivinada.Remove(i, 1).Insert(i, letra.ToString());
                     letraEncontrada = true;
                     palabraLabel.Text = palabraAdivinada;
+                    labelInfo.Text = string.Empty;
                 }
             }
 
@@ -81,6 +83,7 @@ namespace ahorcado
             {
                 vidas--;
                 vidasLabel.Text = "Vidas: " + vidas;
+                labelInfo.Text = $"No contiene la letra {letra}";
             }
 
             if (palabraAdivinada == palabraRecibida)
@@ -88,6 +91,11 @@ namespace ahorcado
                 labelInfo.Text = "Has ganado";
                 textBox1.Enabled = false;
             }
+        }
+
+        private void labelInfo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

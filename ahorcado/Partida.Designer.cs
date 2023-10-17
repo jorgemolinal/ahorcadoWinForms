@@ -73,12 +73,14 @@
             // 
             // labelInfo
             // 
-            labelInfo.AutoSize = true;
-            labelInfo.Location = new Point(358, 361);
+            labelInfo.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            labelInfo.Location = new Point(300, 341);
             labelInfo.Name = "labelInfo";
-            labelInfo.Size = new Size(71, 20);
+            labelInfo.Size = new Size(200, 41);
             labelInfo.TabIndex = 7;
             labelInfo.Text = "infoLabel";
+            labelInfo.TextAlign = ContentAlignment.MiddleCenter;
+            labelInfo.Click += labelInfo_Click;
             // 
             // palabraLabel
             // 

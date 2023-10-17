@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qvN0Z78H/zNPmvvQMLnKY8YbCEImwMWIy+3ELk+8r/J4b4HKM1iMoVJ6mSYgIwxLvBdy3Ehs5UyrkaW+NCQ2tQ==",
+  "dgSpecHash": "BMQ0g75Gc1cC4IWO3gqA75LcIEVst3J8LfkqeUhasblx0O4L/nC7jzN0aoWrbq27NW/cMctwk5YJgUASymFX6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jorge.mlafuente\\source\\repos\\ahorcado\\ahorcado\\ahorcado.csproj",
+  "projectFilePath": "C:\\Users\\jorge.mlafuente\\github\\ahorcadoWinForms\\ahorcado\\ahorcado.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

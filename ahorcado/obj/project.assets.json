@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jorge.mlafuente\\source\\repos\\ahorcado\\ahorcado\\ahorcado.csproj",
+      "projectUniqueName": "C:\\Users\\jorge.mlafuente\\github\\ahorcadoWinForms\\ahorcado\\ahorcado.csproj",
       "projectName": "ahorcado",
-      "projectPath": "C:\\Users\\jorge.mlafuente\\source\\repos\\ahorcado\\ahorcado\\ahorcado.csproj",
+      "projectPath": "C:\\Users\\jorge.mlafuente\\github\\ahorcadoWinForms\\ahorcado\\ahorcado.csproj",
       "packagesPath": "C:\\Users\\jorge.mlafuente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jorge.mlafuente\\source\\repos\\ahorcado\\ahorcado\\obj\\",
+      "outputPath": "C:\\Users\\jorge.mlafuente\\github\\ahorcadoWinForms\\ahorcado\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
