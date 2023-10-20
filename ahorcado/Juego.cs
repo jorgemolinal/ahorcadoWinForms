@@ -11,11 +11,11 @@ using System.Windows.Forms;
 namespace ahorcado
 {
     public partial class Juego : Form
-    {        
-        
+    {
+
         private List<Char> letrasUsuario = new List<Char>();
         private List<String> palabras = new List<String>();
-        
+
         public Juego()
         {
             InitializeComponent();
@@ -52,6 +52,15 @@ namespace ahorcado
             int palabra = (r.Next(0, 10));
             string PalabraJuego = palabras[palabra].ToLower();
             return PalabraJuego;
+        }
+
+        private void vidasLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
         }
     }
 }

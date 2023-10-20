@@ -39,7 +39,7 @@ namespace ahorcado
 
         private void buttonProbar_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text.Length == 1)
+            if (textBox1.Text.Length == 1)
             {
                 char letra = char.Parse(textBox1.Text); //Lo convierto en char
 
@@ -56,7 +56,8 @@ namespace ahorcado
                 {
                     labelInfo.Text = "Ya habias dicho esta letra";
                 }
-            } else
+            }
+            else
             {
                 labelInfo.Text = "Sólo puedes introducir 1 letra";
             }
@@ -88,6 +89,27 @@ namespace ahorcado
                 labelInfo.Text = "Has ganado";
                 textBox1.Enabled = false;
             }
+        }
+
+        private void vidasLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void labelInfo_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void palabraLabel_Click(object sender, EventArgs e)
+        {
         }
     }
 }

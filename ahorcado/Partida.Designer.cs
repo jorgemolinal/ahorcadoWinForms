@@ -54,6 +54,7 @@
             vidasLabel.Size = new Size(64, 20);
             vidasLabel.TabIndex = 10;
             vidasLabel.Text = "Vidas : 5";
+            vidasLabel.Click += vidasLabel_Click;
             // 
             // label1
             // 
@@ -63,6 +64,7 @@
             label1.Size = new Size(134, 20);
             label1.TabIndex = 9;
             label1.Text = "Introduce una letra";
+            label1.Click += label1_Click;
             // 
             // textBox1
             // 
@@ -70,6 +72,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(130, 27);
             textBox1.TabIndex = 8;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // labelInfo
             // 
@@ -79,6 +82,7 @@
             labelInfo.Size = new Size(71, 20);
             labelInfo.TabIndex = 7;
             labelInfo.Text = "infoLabel";
+            labelInfo.Click += labelInfo_Click;
             // 
             // palabraLabel
             // 
@@ -88,6 +92,7 @@
             palabraLabel.Size = new Size(50, 20);
             palabraLabel.TabIndex = 6;
             palabraLabel.Text = "label1";
+            palabraLabel.Click += palabraLabel_Click;
             // 
             // Partida
             // 

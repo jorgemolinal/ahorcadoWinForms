@@ -41,6 +41,7 @@
             label3.Size = new Size(179, 20);
             label3.TabIndex = 0;
             label3.Text = "Pulsa siguiente para jugar";
+            label3.Click += label3_Click;
             // 
             // vidasLabel
             // 
@@ -50,6 +51,7 @@
             vidasLabel.Size = new Size(233, 20);
             vidasLabel.TabIndex = 4;
             vidasLabel.Text = "Bienvenido al juego del ahorcado";
+            vidasLabel.Click += vidasLabel_Click;
             // 
             // buttonSiguiente
             // 

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ahorcado", "ahorcado\ahorcado.csproj", "{731852BA-749E-45E1-AC29-F4666F38006C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ahorcado", "ahorcado\ahorcado.csproj", "{731852BA-749E-45E1-AC29-F4666F38006C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAhorcado", "WinFormsAhorcado\WinFormsAhorcado.csproj", "{25F2700D-E7ED-45C0-8AB0-FE63D2239207}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{731852BA-749E-45E1-AC29-F4666F38006C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{731852BA-749E-45E1-AC29-F4666F38006C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{731852BA-749E-45E1-AC29-F4666F38006C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F2700D-E7ED-45C0-8AB0-FE63D2239207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F2700D-E7ED-45C0-8AB0-FE63D2239207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F2700D-E7ED-45C0-8AB0-FE63D2239207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F2700D-E7ED-45C0-8AB0-FE63D2239207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

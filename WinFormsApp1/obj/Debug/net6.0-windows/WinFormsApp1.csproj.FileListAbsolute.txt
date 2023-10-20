@@ -1,0 +1,17 @@
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Ahorcado.resources
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Pantalla_Principal.resources
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\jorge.mlafuente\github\ahorcadoWinForms\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
