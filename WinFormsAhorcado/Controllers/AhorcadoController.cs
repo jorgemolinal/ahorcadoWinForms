@@ -22,7 +22,7 @@ namespace WinFormsAhorcado.Controllers
             RellenarListPalabras();
             palabra = verPalabraUsar();
             Ahorcado = new AhorcadoModel(palabra);
-            view = new AhorcadoView(palabra, 10, name);
+            view = new AhorcadoView(palabra, Ahorcado.vidas, name);
 
             view.buttonProbarClick += CompruebaLetra;
             this.nombre = name;

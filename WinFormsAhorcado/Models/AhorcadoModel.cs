@@ -20,7 +20,7 @@ namespace WinFormsAhorcado.Models
         public AhorcadoModel(string palabra)
         {
             this.palabra = palabra;
-            vidas = 10;
+            vidas = palabra.Length+3;
             letrasUtilizadas = new List<char>();
             palabraLabel = getPalabraLabel();
         }
@@ -28,6 +28,7 @@ namespace WinFormsAhorcado.Models
 
         public bool comprobar(char letra) //true si la encuentra, false si no
         {
+            bool letraEncontrada = false;
             if (!(letrasUtilizadas.Contains(letra))) //Si no me lo han dicho
             {
                 letrasUtilizadas.Add(letra);
@@ -37,18 +38,17 @@ namespace WinFormsAhorcado.Models
                     if (palabra[i] == letra)
                     {
                         palabraLabel = palabraLabel.Remove(i, 1).Insert(i, letra.ToString());
-                        
-                        if (palabraLabel == palabra) { hasGanado = true; };
-                
-                        return true;
-
-                        //palabraLabel.Text = palabraLabel;
-                        
+                        letraEncontrada = true;
                     }
                 }
-                vidas--;
-                if (vidas == 0) { hasPerdido = true; }
-                return false;
+                if (palabraLabel == palabra) { hasGanado = true; }
+                if (letraEncontrada) { return true; }
+                else
+                {
+                    vidas--;
+                    if (vidas == 0) { hasPerdido = true; }
+                    return false;
+                }
             }
             else
             {
