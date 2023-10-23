@@ -53,21 +53,22 @@ namespace WinFormsAhorcado.Controllers
         }
         public void CompruebaLetra(object sender, EventArgs e)
         {
-            if (Ahorcado.finalPartida() == 2)
+            int acabado = Ahorcado.finalPartida();
+            if (acabado == 2)
             {
                 var letra = view.letra;
 
                 bool comprobacion = Ahorcado.comprobar(letra); //cada vez que compruebo miro finalPartida
-
                 string palabraPintar = Ahorcado.palabraLabel;
                 int vidas = Ahorcado.vidas;
-
+                acabado = Ahorcado.finalPartida();
                 view.ActualizaPalabra(letrasUtilizadas(), comprobacion, palabraPintar, vidas);
             }
-            else if (Ahorcado.finalPartida() == 0)
+            if (acabado == 0)
             {
                 view.showFinal(true);
-            } else
+            } 
+            if(acabado ==1)
             {
                 view.showFinal(false);
             }

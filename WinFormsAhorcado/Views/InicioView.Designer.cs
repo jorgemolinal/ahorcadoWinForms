@@ -32,7 +32,6 @@
             button1 = new Button();
             labelNombre = new Label();
             textBox1 = new TextBox();
-            label2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -71,21 +70,11 @@
             textBox1.TabIndex = 3;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(359, 219);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 4;
-            label2.Text = "label2";
-            // 
             // InicioView
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(labelNombre);
             Controls.Add(button1);
@@ -102,6 +91,5 @@
         private Button button1;
         private Label labelNombre;
         private TextBox textBox1;
-        private Label label2;
     }
 }
