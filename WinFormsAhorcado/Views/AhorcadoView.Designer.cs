@@ -34,6 +34,7 @@
             textBox1 = new TextBox();
             labelInfo = new Label();
             palabraLabel = new Label();
+            labelUtilizadas = new Label();
             SuspendLayout();
             // 
             // buttonProbar
@@ -89,11 +90,22 @@
             palabraLabel.TabIndex = 24;
             palabraLabel.Text = "label1";
             // 
+            // labelUtilizadas
+            // 
+            labelUtilizadas.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            labelUtilizadas.Location = new Point(279, 221);
+            labelUtilizadas.Name = "labelUtilizadas";
+            labelUtilizadas.Size = new Size(257, 25);
+            labelUtilizadas.TabIndex = 30;
+            labelUtilizadas.Text = "Aquí aparecerán las letras utilizadas";
+            labelUtilizadas.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // AhorcadoView
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(labelUtilizadas);
             Controls.Add(buttonProbar);
             Controls.Add(vidasLabel);
             Controls.Add(label1);
@@ -115,5 +127,6 @@
         public TextBox textBox1;
         private Label labelInfo;
         public Label palabraLabel;
+        private Label labelUtilizadas;
     }
 }

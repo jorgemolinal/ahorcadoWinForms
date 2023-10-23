@@ -62,7 +62,7 @@ namespace WinFormsAhorcado.Controllers
                 string palabraPintar = Ahorcado.palabraLabel;
                 int vidas = Ahorcado.vidas;
 
-                view.ActualizaPalabra(letra, comprobacion, palabraPintar, vidas);
+                view.ActualizaPalabra(letrasUtilizadas(), comprobacion, palabraPintar, vidas);
             }
             else if (Ahorcado.finalPartida() == 0)
             {
@@ -71,6 +71,11 @@ namespace WinFormsAhorcado.Controllers
             {
                 view.showFinal(false);
             }
+        }
+
+        public string letrasUtilizadas()
+        {
+            return Ahorcado.getLetrasRepetidas();
         }
 
         private void ShowAhorcado()

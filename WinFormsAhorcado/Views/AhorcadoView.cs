@@ -33,16 +33,19 @@ namespace WinFormsAhorcado.Views
             vidasLabel.Text = "Vidas: " + vidas;
             labelInfo.Text = "Hola " + name + ", la palabra es: " + palabra;
         }
-        public void ActualizaPalabra(char letra, bool comprobacion, string palabra, int vidas)
+        public void ActualizaPalabra(string letrasUtilizadas, bool comprobacion, string palabra, int vidas)
         {
             if (comprobacion)
             {
                 palabraLabel.Text = palabra;
                 labelInfo.Text = string.Empty;
-            } else
+                labelUtilizadas.Text = letrasUtilizadas;
+            }
+            else
             {
                 vidasLabel.Text = "Vidas: " + vidas;
                 labelInfo.Text = "Letra equivocada o repetida";
+                labelUtilizadas.Text = letrasUtilizadas;
             }
         }
         private void AhorcadoView_Load(object sender, EventArgs e)
@@ -63,20 +66,13 @@ namespace WinFormsAhorcado.Views
             }
         }
 
-        private void letrasUtilizadas(List<string> lista)
-        {
-            foreach (string str in lista)
-            {
-
-            }
-        }
-
         public void showFinal(bool hasGanado)
         {
             if (hasGanado)
             {
                 labelInfo.Text = "Has ganado!";
-            } else
+            }
+            else
             {
                 labelInfo.Text = "Has perdido :(";
             }

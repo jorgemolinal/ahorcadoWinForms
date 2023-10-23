@@ -78,5 +78,15 @@ namespace WinFormsAhorcado.Models
             return palabraLabel;
         }
         
+        public string getLetrasRepetidas()
+        {
+            string letras = "";
+            foreach (char i in letrasUtilizadas)
+            {
+                letras += i + ", ";
+            }
+            return letras;
+        }
+        
     }
 }
